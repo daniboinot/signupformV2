@@ -1,10 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 a {
@@ -25,7 +23,7 @@ body {
   height: 640px;
   border-radius: 12px;
   padding: 20px 30px 120px;
-  background: #303f9f;
+  background: #73309f;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
@@ -38,7 +36,7 @@ body {
   width: calc(100% + 180px);
   padding: 20px 140px;
   background: #fff;
-  border-radius: 290px;
+  border-radius: 2px;
   height: 100%;
   transition: all 0.6s ease;
 }
@@ -156,7 +154,7 @@ form .btn {
 
 .container.active .login-section {
   bottom: -12%;
-  border-radius: 220px;
+  border-radius: 20px;
   box-shadow: 0 -5px 10px;
 }
 
@@ -167,3 +165,4 @@ form .btn {
 .container.active .signup-section header {
   opacity: 0.6;
 }
+
