@@ -9,3 +9,14 @@ loginButton.addEventListener("click", () => {
 signupButton.addEventListener("click", () => {
   container.classList.remove("active");
 });
+
+// if passwords don't match
+const password = document.getElementById("password");
+const confpass = document.getElementById("confirm-password");
+
+if (password !== confpass) {
+  document.getElementById("confirm-password").style.border = "2px solid red";
+} else password === confpass;
+{
+  document.getElementById("confirm-password").style.border = "2px solid";
+}
